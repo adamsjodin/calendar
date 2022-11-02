@@ -42,7 +42,7 @@ header h1 {
     width: 30rem;
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    background-color: #eee;
+    background-color: rgb(227, 223, 223);
     gap: 1px;
 }
 
@@ -52,7 +52,7 @@ header h1 {
     justify-content: center;
     display: grid;
     gap: 2px;
-    background-color: rgb(167, 167, 167);
+    background-color: rgb(144, 144, 144);
 
 }
 
@@ -60,7 +60,7 @@ header h1 {
     width: 30rem;
     display: grid;
     grid-template-columns: repeat(7,1fr);
-    background-color: white;
+    background-color: rgb(227, 223, 223);
     gap: 1px;
 }
 .calender__dates p {
@@ -70,14 +70,14 @@ header h1 {
 .calender__dates aside {
     display: flex;
     justify-content: center;
-    background-color: #eee;
+    background-color: rgb(255, 255, 255);
 }
 
 .calender__next-month {
     opacity: 0.4;
 }
- .calender__weekend {
-    background-color: rgb(238, 238, 238);
+.calender__dates .calender__weekend {
+    background-color: #F2F2F2
 }
 
 .calender__today p {
